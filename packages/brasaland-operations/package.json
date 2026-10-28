@@ -1,0 +1,23 @@
+{
+  "name": "@brasaland/operations",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable TypeScript utilities for Brasaland restaurant operations",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit false --outDir dist --declaration",
+    "demo": "npm run build && node dist/demo.js"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

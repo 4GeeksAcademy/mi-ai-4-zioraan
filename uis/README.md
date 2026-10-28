@@ -1,5 +1,11 @@
 # `uis` folder
 
+## Applications
+
+- [Brasaland public website](./website/README.md): English-language company landing
+	page and simulated Brasa Points registration, built with HTML, Tailwind CSS and
+	vanilla JavaScript. Includes local preview instructions and Lighthouse evidence.
+
 This folder contains **all projects with a user interface** for the cross-functional AI Engineering company project — for example: a public website, admin dashboard frontend, ecommerce UI, customer portals, Streamlit/Gradio app or other frontend-only tools.
 
 The two main projects stored here are:

@@ -1,0 +1,37 @@
+@import "tailwindcss" source(none);
+
+@source "./index.html";
+@source "./application.html";
+@source "./*.js";
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/barlow-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/barlow-latin-600-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/barlow-condensed-latin-600-normal.woff2") format("woff2");
+}
+
+@theme {
+  --font-sans: "Barlow", sans-serif;
+  --font-display: "Barlow Condensed", sans-serif;
+  --color-ink: #20231f;
+  --color-ember: #b32925;
+  --color-leaf: #356044;
+}
